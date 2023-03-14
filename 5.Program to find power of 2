@@ -1,0 +1,4 @@
+str=int(input("Enter the Total Number of Terms: "))
+
+for i in range(str):
+    print("power of", i, " is ", 2 ** i)
