@@ -1,0 +1,4 @@
+string=(input("enter a string:"))
+new_string=''.join(sorted(set(string),key=string.index))
+print(new_string)
+
